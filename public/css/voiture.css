@@ -1,0 +1,102 @@
+/* Container styling */
+.container {
+    max-width: 1100px; /* Limit width of the container */
+    margin: 20px auto; /* Center the container horizontally */
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #1d1d1d;
+    margin-bottom: 30px;
+}
+
+/* Table styling */
+table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Collapsing borders */
+    margin-top: 20px;
+}
+
+/* Table header styling */
+thead th {
+    background-color: #A4161A; /* Dark red background */
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+/* Table body styling */
+tbody td {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    font-size: 0.95rem;
+}
+
+/* Alternate row coloring */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background for even rows */
+}
+
+/* Hover effect for rows */
+tbody tr:hover {
+    background-color: #ddd; /* Slight hover effect */
+}
+
+/* Button styling */
+.btn {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    color: rgb(240, 240, 240);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+/* Edit button styling */
+.edit_voiture {
+    background-color: #f7b860; /* Orange background */
+    padding: 5% ; 
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.edit_voiture:hover {
+    background-color: #ec971f; /* Darker orange on hover */
+}
+
+/* Delete button styling */
+.btn-delete {
+    background-color: #d9534f; /* Red background */
+}
+
+.btn-delete:hover {
+    background-color: #c9302c; /* Darker red on hover */
+}
+
+.td_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.add_voiture{
+    background-color: #6ddd8f; /* Orange background */
+    padding: 1% ; 
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+}
+
+
